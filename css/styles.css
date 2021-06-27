@@ -47,6 +47,18 @@ body {
 
 p {margin-bottom: 1rem;}
 
+a, a:active, a:visited{
+  color:#f3f38b;
+  text-decoration: none;
+}
+a:hover{
+  color:white;
+  text-decoration: underline;
+}
+
+em{
+  color:#f3f38b;
+}
 h1, h2, h3, h4, h5 {
   margin: 3rem 0 1.38rem;
   font-family: 'Inter', sans-serif;
@@ -66,6 +78,7 @@ h3 {font-size: 1.953rem;}
 h4 {font-size: 1.563rem;}
 
 h5 {font-size: 1.25rem;}
+h6 {font-size: 1.1rem;}
 
 small, .text_small {font-size: 0.8rem;}
 
@@ -79,10 +92,32 @@ strong{
   font-weight: 600;
 }
 /* Content */
-
-
 .wrapper{
   padding:64px 0;
   max-width: 700px;
   margin: 0 auto;
+}
+
+footer{
+  background: #222;
+  font-size: 90%;
+  color:#888;
+}
+footer h6{
+  color:#999;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 760px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .wrapper{
+    width:auto;
+    margin:0 8%;
+
+  }
+
+  h1{
+    font-size: 2.2rem;
+  }
 }
