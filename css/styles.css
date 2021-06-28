@@ -134,6 +134,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   }
 
+  footer .wrapper{
+    padding:64px 8%;
+  }
+
   h1{
     font-size: 2.2rem;
   }
